@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.calculator{
+    
+    border: 2px solid grey;
+    width: 60vw;
+    height: 95vh;
+    min-width: 300px;
+    min-height: 300px;
+    text-align: center;
+    padding: 5px;
+    margin: 20% 15%;
+}
+.calculator, h2{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+#dispaly-conatainer , p{
+    font-size: 2.7rem ;
+    display: inline-block;
+    align-items: flex-end;
+    color: blue;
+    width: 50vw;
+    height: 20vh;
+    min-height: 35px;
+    margin: 10px;
+    background-color: white;
+}
+#display{
+    background-color: wheat;
+    margin: 0.5rem;
+    vertical-align: text-bottom;
+    border: 3px solid grey;
+    border-radius: 5px;
+    color: black;
+
+    
+
+}
+.key_container{
+    padding: 5px;
+    /* margin: 1s5px; */
+    width: 100%;
+    height: 60%;
+    min-height:  300px;   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.btn{
+    background-color: white;
+    color:black;
+    display: flex;
+    width: 25%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    border:  3px solid grey;
+
+
+}
+#btn-zero{
+    width: 50%;
+}
+.btn_c{
+    background-color: red;
+    color:black;
+    display: flex;
+    width: 25%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    border:  3px solid grey;
+
+}
+.btn:hover{
+cursor: pointer;
+background-color: aquamarine;
+transition: 1s;
+}
+.btn_c:hover{
+    cursor: pointer;
+    background-color: yellow;
+    transition: 1s;
+}
